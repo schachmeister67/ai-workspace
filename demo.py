@@ -8,7 +8,8 @@ from pathlib import Path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Import the process_query function from ai_sql_agent
-from ai_sql_agent import process_query
+#from ai_sql_agent import process_query
+from ai_sql_agent_v2 import process_query
 
 # Get the root path of the current directory
 root_path = Path(__file__).parent
